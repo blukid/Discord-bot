@@ -1,0 +1,8 @@
+NOTES IN CASE I BLOG ABOUT THIS
+-------------------------------
+
+had to learn how to combine bot commands and onmessages
+had to add process_commands at end of onmessage
+added #!/usr/bin/python3 to top and chmodded so don't have to remember python3
+had to pip install python3 versions of everything
+
