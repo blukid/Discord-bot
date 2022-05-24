@@ -20,7 +20,7 @@ letterkenny_greeting = [
 letterkenny_random_quotes = [
     'How\'re ya now?',
     'That\'s what I appreciates about yas.',
-    'Wish you weren\'t so fuckin awkward, bud.'
+    'Wish you weren\'t so f*ckin awkward, bud.'
 ]
 
 @bot.event
@@ -48,7 +48,7 @@ async def on_message(message):
         await message.channel.send(response)
 
     if message.content.casefold() == 'bad bot':
-        response = 'Fuck you Jonesy'
+        response = 'F*ck you Jonesy'
         await message.channel.send(response)
 
     await bot.process_commands(message)
